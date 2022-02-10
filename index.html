@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  </link>
+    <main>
+      <h1>Binary Search Tree Visualization</h1>
+      <input type="number" id="number-to-add">
+      <button type="button", id="insert-button">Insert</button>
+      <input type="number" id="number-to-delete">
+      <button type="button", id="delete-button">Delete</button>
+      <input type="number" id="number-to-find">
+      <button type="button", id="find-button">Find</button>
+      <button type="button", id="clear-tree-button">Clear Tree</button>
+    </main>
+    <div>
+      <p>Delay between operations:</p>
+      <input type="range" min="150" max="1000" value="300" id="sleep-delay" oninput="num.value = `${this.value}ms`">
+      <output id="num">300ms</output>
+    </div>
+  </body>
+</html>

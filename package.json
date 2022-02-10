@@ -1,0 +1,14 @@
+{
+  "name": "bst-visualization",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "browser-sync start --server -f -w"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7"
+  },
+  "dependencies": {}
+}
